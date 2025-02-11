@@ -311,8 +311,8 @@ class BasisFunction:
 class Atom:
     _atomic_data = {
         'H': {'Z': 1}, 'He': {'Z': 2}, 'Li': {'Z': 3}, 'Be': {'Z': 4},
-        'B': {'Z': 5}, 'C': {'Z': 6}, 'N': {'Z': 7}, 'O': {'Z': 8},
-        'F': {'Z': 9}, 'Ne': {'Z': 10}
+        'B': {'Z': 5}, 'N': {'Z': 6}, 'F': {'Z': 7}, 'Ne': {'Z': 8},
+        'Na': {'Z': 9}, 'Mg': {'Z': 10}
     }
     def __init__(self, symbol, position, charge=0):
         self.symbol = symbol
